@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="player">
+            <div class="cover"><img src="images/plast.png" id="plast"><img src="images/audi.png"></div>
+            <div class="volume">
+                <input id="audioVolume" min="0" max="1" step="0.05" value="0.5" type="range">
+            </div>
+            <div class="tracker">
+                <input id="songRewind" min="0" max="180" step="10" value="1" type="range">
+                <span id="songTime"></span>
+            </div>
+            <div class="controls">
+                <div class="play"><a><img src="images/play-button.png"></a></div>
+                <div class="pause"><a><img src="images/pause.png"></a></div>
+                <div class="rew"><a><img src="images/rewind.png"></a></div>
+                <div class="fwd"><a><img src="images/forward.png"></a></div>
+            </div>
+        </div>
+        <div class="list">
+            <select id="songPlaylist" size="3" multiple>
+                <option value="0">1.Sound_1</option>
+                <option value="1">2.Sound_2</option>
+                <option value="2">3.Sound_3</option>
+                <option value="3">4.Sound_4</option>
+            </select>
+        </div>
+    </div>
+</body>
+<script src="js/main.js" type="text/javascript"></script>
+
+</html>
