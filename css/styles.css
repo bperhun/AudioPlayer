@@ -1,13 +1,13 @@
 body {
     background-color: cornsilk;
-    width: 100pw;
+    width: 100%;
     height: 100%;
 
 }
 
 #wrapper {
-    width: 800px;
-    height: 550px;
+    width: 1600px;
+    height: 1100px;
     
     display: flex;
     flex-direction: column;
@@ -55,16 +55,16 @@ body {
 
 
 div img {
-    width: 35%;
-    height: 35%;
+    width: 60%;
+    height: 60%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-div img:active {
-    width: 40%;
-    height: 40%;
+.controls img:active {
+    width: 70%;
+    height: 70%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -86,10 +86,10 @@ div img:active {
 }
 
 .tracker{
-   width: 70%;
+    width: 70%;
     height: 10%;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
 }
 
      #audioBox{
